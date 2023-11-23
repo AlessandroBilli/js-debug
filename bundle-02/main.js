@@ -21,6 +21,22 @@ function checkAge() {
         message = 'Hai più di 18 anni!';
     }
 }
+
+/*
+Versione corretta: 
+function checkAge() {
+    const myAge = 32;
+    let message = '';
+
+    if (myAge < 18) {
+        message = `Sei troppo giovane! Hai ${myAge} anni!`;
+    } else {
+        message = 'Hai più di 18 anni!';
+    }
+
+    return message;}
+
+*/
 checkAge();
 
 // ESERCIZIO 2

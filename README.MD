@@ -1,5 +1,5 @@
 #   js-debug
-## Bundel 1
+## Bundle 1
 
 
 
@@ -16,9 +16,9 @@
 4- Questa function ha molteplici errori, il primo è **numbers.length - 1**, difatti in questo modo trascura l'ultimo elemento dell'array. Successivamente il **;** su **i++** è erratto perchè causa un interruzione della funzione senzà il completamento di essa e quindi darà errore. Andando avanti **(numbers % 2 = 0);**, è sbagliato per i due motivi precedentemente scritti. Proseguendo la posizione sbagliata del **return** all'interno del ciclo **for** fa sì che la funzione restituisca l'**array** evenNumbers dopo aver trovato il primo numero pari, interrompendo il ciclo e restituendo solo quel singolo numero anziché tutti i numeri pari.
 
 
+## Bundle 2
 
-
-
+1- L'errore qui sta nell'assegnare **const message = '';** con const, difatti **const** serve a inizializzare una variabile che non può essere assegnata nuovamente. 
 
 
 
