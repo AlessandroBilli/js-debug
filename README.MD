@@ -13,7 +13,7 @@
 3- Questo ciclo non funziona poichè le istruzioni del ciclo sono divise con **,** che serve semplicente a separare elementi e non a terminare un istrzuione, funzionalità che fa il **;**.
 
 
-
+4- Questa function ha molteplici errori, il primo è **numbers.length - 1**, difatti in questo modo trascura l'ultimo elemento dell'array. Successivamente il **;** su **i++** è erratto perchè causa un interruzione della funzione senzà il completamento di essa e quindi darà errore. Andando avanti **(numbers % 2 = 0);**, è sbagliato per i due motivi precedentemente scritti. Proseguendo la posizione sbagliata del **return** all'interno del ciclo **for** fa sì che la funzione restituisca l'**array** evenNumbers dopo aver trovato il primo numero pari, interrompendo il ciclo e restituendo solo quel singolo numero anziché tutti i numeri pari.
 
 
 
