@@ -14,7 +14,7 @@
 for (let i = 0; i > 5; i++) {
     console.log(i);
 }
-/*
+/* Versione corretta:
 for (let i = 0; i < 5; i++) {
     console.log(i);
 }
@@ -28,7 +28,8 @@ function addIfEven(num) {
     }
     return num;
 }
-/*function addIfEven(num) {
+/*Versione corretta:
+function addIfEven(num) {
     if (num % 2 === 0) {
         return num + 5;
     }
@@ -42,6 +43,13 @@ function loopToFive() {
         console.log(i);
     }
 }
+
+/*Versione corretta:
+
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+}
+* /
 
 
 // ESERCIZIO 4 (suggerimento: ci sono 7 errori)

@@ -10,6 +10,9 @@
 2- Questa function non avrà l'effetto desiderato, infatti con **(num % 2 = 0)**, perchè **=** viene utilizzato per dare una assegnazione, mentre per verificare ad esempio che la divisione dia il resto di 0, deve essere utilizato **===** perchè appunto serve per verificare che due valori sono perfettamente identici e quindi attiverà **if** solo e unicamente se il resto sarà 0.
 
 
+3- Questo ciclo non funziona poichè le istruzioni del ciclo sono divise con **,** che serve semplicente a separare elementi e non a terminare un istrzuione, funzionalità che fa il **;**.
+
+
 
 
 
